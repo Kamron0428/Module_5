@@ -1,0 +1,3 @@
+61d3e32f-908f-4747-bf87-70451970fd35, Kama, 123, asmdfa, Kama, 123
+b3a35817-774d-4863-89dd-81dce31f4e89, Sardor, Gafurov, sardor71739799@gamil.com, Sardor, 123
+fe60ac49-da11-4651-ad31-1d8d7e3d5ef2, 1, 1, parij4320@gmail.com, 2, 2

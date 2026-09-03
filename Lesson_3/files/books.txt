@@ -1,0 +1,50 @@
+adfeb2fd-bcf9-4bcb-8568-bb98c69ef096, A Summer Bird-Cage, Ms. Eleni Jacobi, Fiction in verse, 1994, 342, false, null
+cc1987dd-88de-4586-abc4-02bef223243e, The Other Side of Silence, Bernie Ondricka, Realistic fiction, 2018, 196, false, null
+a8c96f87-22f2-4f60-be79-714990c03fec, Clouds of Witness, Irving Nikolaus, Classic, 2011, 270, false, null
+36b0cb5b-8ed9-4c6f-a245-ebba269441b7, Tiger! Tiger!, Brendon Aufderhar DDS, Classic, 1998, 132, false, null
+7a14251f-68cf-494a-b5a1-d4a11cee4458, The Green Bay Tree, Hope Buckridge, Narrative nonfiction, 2008, 405, false, null
+7f1d201a-e35c-4afa-88ce-3a4c432ca867, Have His Carcase, Eugena Romaguera, Fiction in verse, 2001, 492, false, null
+16dd613a-ddbf-4f2a-850a-03bdf118d489, Recalled to Life, Jacob Yundt, Crime/Detective, 1999, 371, false, null
+5870a01b-160c-43c7-a045-46e5879f7be5, For a Breath I Tarry, Arturo Boyle, Historical fiction, 2007, 108, false, null
+127b2ed0-cf0c-4b6f-81b8-031886ea1afc, Many Waters, Elvis Hansen, Horror, 2009, 191, false, null
+9c94a7f4-e31f-4c51-b835-ab8d2cb350e8, Mr Standfast, Karina Olson, Biography/Autobiography, 2002, 145, false, null
+f6198cdc-7894-44c7-b33b-275fbee3dcdf, The Painted Veil, Markus Walsh PhD, Historical fiction, 1997, 466, false, null
+eb76821f-94f7-4f0f-aa88-dcaec1e7e675, Postern of Fate, Irving Gleichner, Fiction narrative, 2011, 254, false, null
+8241f748-a3c0-432f-bf8b-698367a32679, The Heart Is Deceitful Above All Things, Graig Smith, Tall tale, 2008, 194, false, null
+6726b6d5-2010-4d62-9505-b5ff820f8a52, Things Fall Apart, Denisse Hegmann, Horror, 2017, 341, false, null
+40211f28-0d2d-4f57-b272-2bc2f7926fae, His Dark Materials, Liliana Ortiz, Western, 1993, 365, false, null
+0daca5ef-6085-40f1-8466-9c095952ec4a, I Sing the Body Electric, Sammie Spinka Sr., Fantasy, 2001, 350, false, null
+809c94ec-6052-40c6-87a3-c8748676594d, A Time to Kill, Karissa Stokes, Fairy tale, 2012, 439, false, null
+14a40750-fda6-4075-ae9d-cc348dd623d1, Down to a Sunless Sea, Teodoro Howe, Mythology, 1999, 453, false, null
+5441f6cf-c904-4b37-a0f4-8d9179543e84, Beyond the Mexique Bay, Ling Stamm, Textbook, 2017, 319, false, null
+5ba56fb3-9e69-4164-a2f1-02e0532bf27f, The Waste Land, Helena Goyette II, Short story, 2012, 129, false, null
+cf09f341-2eed-4ddc-af76-759d27977066, An Acceptable Time, Miss Reiko Batz, Narrative nonfiction, 1993, 251, false, null
+9ad280d8-6bdf-46ca-ab9e-61e3cd2bd94c, Blood's a Rover, Retha Abbott, Mythology, 2019, 377, false, null
+bea31538-dd4c-42b5-b04d-cb085fa2faa3, The Last Temptation, Meghann Tremblay, Narrative nonfiction, 2001, 106, false, null
+c673848f-5f35-4259-83da-966032b8b501, Mother Night, Clarence McDermott, Textbook, 1995, 201, false, null
+4447450d-163a-46f1-a5bc-595c013127eb, Jesting Pilate, Lennie Willms, Historical fiction, 2013, 258, false, null
+fb3369ee-51a1-45c0-ac85-6352596581dd, Surprised by Joy, Mrs. Lory O'Connell, Folklore, 2008, 407, false, null
+a9aa8d3d-e0af-4c83-af54-ddb62e64d4ee, Of Human Bondage, Clorinda West, Fiction narrative, 2012, 247, false, null
+a696cbf4-156a-4388-a5bd-c7d761412d28, The Way of All Flesh, Maggie Nicolas, Fanfiction, 1999, 216, false, null
+166cbb29-7955-4cbf-b442-2a14c175167c, The Torment of Others, Dr. Stacie Ryan, Fable, 2012, 336, false, null
+659be2b0-361d-4bf7-a710-69d8f74ed8ad, Cover Her Face, Stacia Murphy MD, Suspense/Thriller, 2006, 164, false, null
+a613391a-0c13-4dfb-9f57-ef6de6da7835, The Wind's Twelve Quarters, Caridad Ziemann, Mythology, 2002, 437, false, null
+6449cd2e-253e-4d1b-a537-bd268062902e, The Moving Finger, Scot Nicolas, Science fiction, 1996, 106, false, null
+90c75431-b238-4823-b72b-52026d63b036, By Grand Central Station I Sat Down and Wept, Wilton Ward, Humor, 2018, 194, false, null
+e0975bd3-8119-455d-ab35-8c278f0625f6, Arms and the Man, Casey Cummings, Fiction narrative, 1990, 108, false, null
+93fe2a2d-9184-4ddb-abd3-7c197a01dc65, What's Become of Waring, Judie Wintheiser, Biography/Autobiography, 1993, 214, false, null
+8696b64c-f096-4990-b0a9-5b04326582d3, The Moving Toyshop, Mrs. Mark Lind, Textbook, 2004, 239, false, null
+d99930f8-344a-487f-be72-02d965a789ec, The Mirror Crack'd from Side to Side, Linn Reinger, Mythology, 2002, 160, false, null
+6cf5cad5-39b9-4d28-aece-f11222affba6, Dance Dance Dance, Will McKenzie, Fiction narrative, 2000, 123, false, null
+b002f52c-51b7-4548-bebb-5b1d6288a62d, This Side of Paradise, Gonzalo Hamill, Narrative nonfiction, 2011, 132, false, null
+a1480331-ac5f-4184-9f5b-a04879aacbdf, The Way of All Flesh, Divina Gleason, Mythopoeia, 2008, 451, false, null
+ce95bcc0-d224-4a19-85a7-df258f7f5884, Tender Is the Night, Avril Considine, Historical fiction, 1994, 212, false, null
+1938b6d1-a53e-4c56-8233-0aabfb1c63dc, Pale Kings and Princes, Harrison Jaskolski, Narrative nonfiction, 1992, 360, false, null
+e24cd640-b506-4134-b150-35c8592320e3, Cover Her Face, Randall Braun PhD, Tall tale, 1996, 174, false, null
+25116784-2dfe-4a9c-bfdb-6965708f1ed1, Specimen Days, Kenneth Predovic, Fantasy, 2017, 340, false, null
+fc4f31ad-dece-407f-8e6a-5723961b7579, All Passion Spent, Mr. Jc Abernathy, Fantasy, 2014, 488, false, null
+b6fd7b9c-c19b-4be5-a5ca-4c6a8977fd44, Endless Night, Adrien Abshire, Classic, 2002, 219, false, null
+b89b248c-bf43-4e6d-a318-e7307853fb85, It's a Battlefield, Dr. Wilbert Homenick, Fable, 1996, 259, false, null
+8dfa3d8a-4526-48cc-a311-94d8f3b4b4d2, The Lathe of Heaven, Javier Koelpin, Reference book, 2017, 331, false, null
+16fb0a87-f758-462d-96fc-5b7ad857dea0, As I Lay Dying, Harris Koss V, Legend, 2003, 369, false, null
+90b816f7-2ed3-456d-9fbc-4a42742c986a, A Time to Kill, Mr. Fidela Greenfelder, Crime/Detective, 1997, 434, false, null
