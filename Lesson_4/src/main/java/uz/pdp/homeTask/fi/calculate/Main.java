@@ -1,4 +1,4 @@
-package uz.pdp.homeTask.functionalInterfaceses.calculate;
+package uz.pdp.homeTask.fi.calculate;
 
 public class Main {
 

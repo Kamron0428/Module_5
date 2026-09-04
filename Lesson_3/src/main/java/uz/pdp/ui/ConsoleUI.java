@@ -34,11 +34,11 @@ public class ConsoleUI {
     }
 
     private void handleRegister() {
-        String name = Scan.scanStr("Firstname: ");
-        String lastName = Scan.scanStr("Lastname: ");
+        String name = Scan.scanStr("Ism: ");
+        String lastName = Scan.scanStr("Sharif: ");
         String email = Scan.scanStr("Email: ");
         String username = Scan.scanStr("Username: ");
-        String password = Scan.scanStr("Password: ");
+        String password = Scan.scanStr("Parol: ");
         User user = new User(UUID.randomUUID(), name, lastName, email, username, password);
 
         try {
@@ -73,7 +73,7 @@ public class ConsoleUI {
 
     private void handleLogin() {
         String username = Scan.scanStr("Username: ");
-        String password = Scan.scanStr("Password: ");
+        String password = Scan.scanStr("Parol: ");
         try {
             currentUser = authService.login(username, password);
             System.out.println("Hush kelibsiz, " + currentUser.getFirstName());
