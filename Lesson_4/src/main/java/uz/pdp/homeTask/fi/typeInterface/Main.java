@@ -1,6 +1,4 @@
-package uz.pdp.homeTask.functionalInterfaceses.typeInterface;
-
-import java.util.concurrent.Callable;
+package uz.pdp.homeTask.fi.typeInterface;
 
 public class Main {
 

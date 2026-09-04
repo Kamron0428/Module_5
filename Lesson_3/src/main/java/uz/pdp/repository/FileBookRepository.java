@@ -2,9 +2,7 @@ package uz.pdp.repository;
 
 import uz.pdp.model.Book;
 import java.io.*;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.UUID;
+import java.util.*;
 
 public class FileBookRepository implements BookRepository {
 
@@ -27,11 +25,8 @@ public class FileBookRepository implements BookRepository {
                 int year = Integer.parseInt(split[4]);
                 int pageCount = Integer.parseInt(split[5]);
                 boolean available = Boolean.parseBoolean(split[6]);
+                UUID userId = UUID.fromString(split[7]);
 
-                UUID userId = null;
-                if (!split[7].equalsIgnoreCase("null")) {
-                    userId = UUID.fromString(split[7]);
-                }
                 books.add(new Book(uuid, title, author, genre, year, pageCount, available, userId));
             }
         } catch (IOException e) {

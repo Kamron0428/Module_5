@@ -1,4 +1,4 @@
-package uz.pdp.homeTask.functionalInterfaceses.predicate;
+package uz.pdp.homeTask.fi.predicate;
 
 import java.util.ArrayList;
 import java.util.List;
