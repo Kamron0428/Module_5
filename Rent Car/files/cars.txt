@@ -1,0 +1,5 @@
+34c03399-e1b3-4ba1-b0d7-0e7a0d167ece, Chevrolet, Malibu 2, 2020, 1000000.00, true, null
+fe670d46-8292-495f-917e-889b511b83e5, BYD, HUN, 2025, 1500000.00, true, null
+511c095d-68d6-48d3-8e25-d8201b879f47, Chevrolet, Jentra, 2018, 500000.00, true, null
+9ec54762-f156-42f9-a368-74f8b0c6dfbd, Chevrolet, Cobalt, 2021, 800000.00, true, null
+7fbc28d2-44eb-489f-870c-6506952b2534, BMW, M5, 2022, 20000000.00, false, bb6ffefa-7f64-4e67-bf28-8ffb8d845598
