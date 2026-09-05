@@ -6,22 +6,20 @@ import uz.pdp.model.*;
 import uz.pdp.service.*;
 import uz.pdp.util.Scan;
 
-import java.util.List;
-import java.util.Properties;
-import java.util.UUID;
+import java.util.*;
 
-public class ConsoleUI {
+public class MainUI {
     private final AuthService authService;
     private final BookService bookService;
     private User currentUser;
 
-    public ConsoleUI(AuthService authService, BookService bookService) {
+    public MainUI(AuthService authService, BookService bookService) {
         this.authService = authService;
         this.bookService = bookService;
     }
 
     public void start() {
-        while (true) {
+        while (currentUser != null) {
             System.out.println("\n1. Register\n2. Login\n0. Exit");
             int choice = Scan.scanInt("Tanlang: ");
             switch (choice) {
@@ -60,7 +58,7 @@ public class ConsoleUI {
             });
             Message message = new MimeMessage(session);
             message.setSubject("Library");
-            message.setContent("<h1 style=\"color:green;\"> Siz Kutubxonadan muofaqiyatli o'tdingiz! Sizning ID raqamingiz: <h1>"+ registeredUser.getId(), "text/html;");
+            message.setContent("<h1 style=\"color:green;\"> Siz Kutubxonadan muofaqiyatli o'tdingiz! Sizning ID raqamingiz: <h1>" + registeredUser.getId(), "text/html;");
             message.setFrom(new InternetAddress(username));
             message.setRecipient(Message.RecipientType.TO, new InternetAddress(email));
             Transport.send(message);
@@ -72,6 +70,9 @@ public class ConsoleUI {
     }
 
     private void handleLogin() {
+        for (User user : authService.getUsers()) {
+            System.out.println("User: " + user.getUsername() + " Password: " + user.getPassword());
+        }
         String username = Scan.scanStr("Username: ");
         String password = Scan.scanStr("Parol: ");
         try {
@@ -84,7 +85,7 @@ public class ConsoleUI {
     }
 
     private void userMenu() {
-        while (currentUser != null) {
+        while (true) {
             System.out.println("""
                     \n--- MENYU ---
                     1. Bo'sh kitoblarni ko'rish
@@ -138,4 +139,6 @@ public class ConsoleUI {
             System.out.println("Xatolik: " + e.getMessage());
         }
     }
+
+
 }

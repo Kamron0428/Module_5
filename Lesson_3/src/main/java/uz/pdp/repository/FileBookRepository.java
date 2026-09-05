@@ -25,7 +25,10 @@ public class FileBookRepository implements BookRepository {
                 int year = Integer.parseInt(split[4]);
                 int pageCount = Integer.parseInt(split[5]);
                 boolean available = Boolean.parseBoolean(split[6]);
-                UUID userId = UUID.fromString(split[7]);
+                UUID userId = null;
+                if (!split[7].equals("null")) {
+                    userId = UUID.fromString(split[7]);
+                }
 
                 books.add(new Book(uuid, title, author, genre, year, pageCount, available, userId));
             }

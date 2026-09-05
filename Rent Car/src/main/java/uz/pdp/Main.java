@@ -12,16 +12,16 @@ import java.util.UUID;
 public class Main {
     public static void main(String[] args) {
 
-        FileUserRepository userRepository = new FileUserRepository();
+        /*FileUserRepository userRepository = new FileUserRepository();
         FileCarRepository carRepository = new FileCarRepository();
 
         AuthService authService = new AuthServiceImpl(userRepository);
         RentCarService carService = new RentCarServiceImpl(carRepository);
 
         ConsoleUI consoleUI = new ConsoleUI(authService, carService);
-        consoleUI.start();
+        consoleUI.start();*/
 
-//        rentCarToFile();
+        rentCarToFile();
     }
 
     private static void rentCarToFile() {

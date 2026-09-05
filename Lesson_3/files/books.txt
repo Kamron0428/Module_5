@@ -47,4 +47,4 @@ b6fd7b9c-c19b-4be5-a5ca-4c6a8977fd44, Endless Night, Adrien Abshire, Classic, 20
 b89b248c-bf43-4e6d-a318-e7307853fb85, It's a Battlefield, Dr. Wilbert Homenick, Fable, 1996, 259, false, null
 8dfa3d8a-4526-48cc-a311-94d8f3b4b4d2, The Lathe of Heaven, Javier Koelpin, Reference book, 2017, 331, false, null
 16fb0a87-f758-462d-96fc-5b7ad857dea0, As I Lay Dying, Harris Koss V, Legend, 2003, 369, false, null
-90b816f7-2ed3-456d-9fbc-4a42742c986a, A Time to Kill, Mr. Fidela Greenfelder, Crime/Detective, 1997, 434, false, null
+90b816f7-2ed3-456d-9fbc-4a42742c986a, A Time to Kill, Mr. Fidela Greenfelder, Crime/Detective, 1997, 434, true, b94eae05-4104-4c46-a5b5-7ee3e6c3c791

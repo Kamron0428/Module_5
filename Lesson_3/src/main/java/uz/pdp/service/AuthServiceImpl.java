@@ -3,6 +3,9 @@ package uz.pdp.service;
 import uz.pdp.model.User;
 import uz.pdp.repository.UserRepository;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class AuthServiceImpl implements AuthService {
     private final UserRepository userRepository;
 
@@ -27,5 +30,10 @@ public class AuthServiceImpl implements AuthService {
             throw new IllegalArgumentException("Login yoki parol noto'g'ri!");
         }
         return user;
+    }
+
+    @Override
+    public List<User> getUsers() {
+        return userRepository.findAll();
     }
 }
