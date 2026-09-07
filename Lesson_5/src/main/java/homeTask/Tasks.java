@@ -1,5 +1,6 @@
 package homeTask;
 
+import java.util.Collection;
 import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Stream;
@@ -26,7 +27,7 @@ public class Tasks {
         List<List<String>> allGroups = List.of(groupA, groupB, groupC);
 
         List<String> allStudents = allGroups.stream()
-                .flatMap(group -> group.stream())
+                .flatMap(Collection::stream)
                 .toList();
 
         System.out.println(allStudents);
