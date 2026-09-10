@@ -3,7 +3,6 @@ package uz.pdp.service;
 import uz.pdp.model.Book;
 import uz.pdp.repository.BookRepository;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
 
@@ -21,26 +20,16 @@ public class BookServiceImpl implements BookService {
 
     @Override
     public List<Book> getAvailableBooks() {
-        List<Book> allBooks = getAllBooks();
-        List<Book> availableBooks = new ArrayList<>();
-        for (Book b : allBooks) {
-            if (!b.isAvailable()) {
-                availableBooks.add(b);
-            }
-        }
-        return availableBooks;
+        return getAllBooks().stream()
+                .filter(book -> !book.isAvailable())
+                .toList();
     }
 
     @Override
     public List<Book> getBooksByUserId(UUID userId) {
-        List<Book> allBooks = getAllBooks();
-        List<Book> userBooks = new ArrayList<>();
-        for (Book b : allBooks) {
-            if (b.isAvailable() && userId.equals(b.getUserId())) {
-                userBooks.add(b);
-            }
-        }
-        return userBooks;
+        return getAllBooks().stream()
+                .filter(book -> !book.isAvailable() && userId.equals(book.getUserId()))
+                .toList();
     }
 
     @Override
@@ -50,11 +39,11 @@ public class BookServiceImpl implements BookService {
             throw new IllegalArgumentException("Bunday kitob topilmadi!");
         }
 
-        if (book.isAvailable()) {
+        if (!book.isAvailable()) {
             throw new IllegalStateException("Kechirasiz, ushbu kitob allaqachon BAND qilingan!");
         }
 
-        book.setAvailable(true);
+        book.setAvailable(false);
         book.setUserId(userId);
         bookRepository.update(book);
     }
@@ -66,11 +55,11 @@ public class BookServiceImpl implements BookService {
             throw new IllegalArgumentException("Bunday kitob topilmadi!");
         }
 
-        if (!book.isAvailable() || !userId.equals(book.getUserId())) {
+        if (book.isAvailable() || !userId.equals(book.getUserId())) {
             throw new IllegalStateException("Bu kitob siz tomonidan olinmagan!");
         }
 
-        book.setAvailable(false);
+        book.setAvailable(true);
         book.setUserId(null);
         bookRepository.update(book);
     }

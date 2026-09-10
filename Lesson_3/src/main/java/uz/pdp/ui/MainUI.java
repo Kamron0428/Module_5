@@ -19,7 +19,7 @@ public class MainUI {
     }
 
     public void start() {
-        while (currentUser != null) {
+        while (true) {
             System.out.println("\n1. Register\n2. Login\n0. Exit");
             int choice = Scan.scanInt("Tanlang: ");
             switch (choice) {
@@ -69,20 +69,6 @@ public class MainUI {
         }
     }
 
-    private void handleLogin() {
-        for (User user : authService.getUsers()) {
-            System.out.println("User: " + user.getUsername() + " Password: " + user.getPassword());
-        }
-        String username = Scan.scanStr("Username: ");
-        String password = Scan.scanStr("Parol: ");
-        try {
-            currentUser = authService.login(username, password);
-            System.out.println("Hush kelibsiz, " + currentUser.getFirstName());
-            userMenu();
-        } catch (Exception e) {
-            System.out.println("Xatolik: " + e.getMessage());
-        }
-    }
 
     private void userMenu() {
         while (true) {
@@ -101,9 +87,26 @@ public class MainUI {
                 case 2 -> handleBorrowBook();
                 case 3 -> handleReturnBook();
                 case 4 -> showBooks(bookService.getBooksByUserId(currentUser.getId()), "Sizda kitoblar mavjud emas");
-                case 5 -> currentUser = null;
+                case 5 -> {
+                    return;
+                }
                 default -> System.out.println("Noto'g'ri tanlov!");
             }
+        }
+    }
+
+    private void handleLogin() {
+        authService.getUsers().forEach(user ->
+                System.out.println("User: " + user.getUsername() + " Password: " + user.getPassword()));
+
+        String username = Scan.scanStr("Username: ");
+        String password = Scan.scanStr("Parol: ");
+        try {
+            currentUser = authService.login(username, password);
+            System.out.println("Hush kelibsiz, " + currentUser.getFirstName());
+            userMenu();
+        } catch (Exception e) {
+            System.out.println("Xatolik: " + e.getMessage());
         }
     }
 
@@ -112,10 +115,8 @@ public class MainUI {
             System.out.println(emptyMessage);
             return;
         }
-        for (Book b : books) {
-            System.out.printf("ID: %s | Nom: %s | Muallif: %s | Yil: %d%n",
-                    b.getUuid(), b.getTitle(), b.getAuthor(), b.getYear());
-        }
+        books.forEach(b -> System.out.printf("ID: %s | Nom: %s | Muallif: %s | Yil: %d%n",
+                b.getUuid(), b.getTitle(), b.getAuthor(), b.getYear()));
     }
 
     private void handleBorrowBook() {

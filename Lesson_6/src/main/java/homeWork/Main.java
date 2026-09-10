@@ -44,10 +44,6 @@ public class Main {
 
 
 
-
-
-
-
     }
 
     private static void partitioningByScore(List<Student> students) {

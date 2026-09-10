@@ -2,8 +2,6 @@ package uz.pdp.service;
 
 import uz.pdp.model.User;
 import uz.pdp.repository.UserRepository;
-
-import java.util.ArrayList;
 import java.util.List;
 
 public class AuthServiceImpl implements AuthService {

@@ -1,50 +1,454 @@
-adfeb2fd-bcf9-4bcb-8568-bb98c69ef096, A Summer Bird-Cage, Ms. Eleni Jacobi, Fiction in verse, 1994, 342, false, null
-cc1987dd-88de-4586-abc4-02bef223243e, The Other Side of Silence, Bernie Ondricka, Realistic fiction, 2018, 196, false, null
-a8c96f87-22f2-4f60-be79-714990c03fec, Clouds of Witness, Irving Nikolaus, Classic, 2011, 270, false, null
-36b0cb5b-8ed9-4c6f-a245-ebba269441b7, Tiger! Tiger!, Brendon Aufderhar DDS, Classic, 1998, 132, false, null
-7a14251f-68cf-494a-b5a1-d4a11cee4458, The Green Bay Tree, Hope Buckridge, Narrative nonfiction, 2008, 405, false, null
-7f1d201a-e35c-4afa-88ce-3a4c432ca867, Have His Carcase, Eugena Romaguera, Fiction in verse, 2001, 492, false, null
-16dd613a-ddbf-4f2a-850a-03bdf118d489, Recalled to Life, Jacob Yundt, Crime/Detective, 1999, 371, false, null
-5870a01b-160c-43c7-a045-46e5879f7be5, For a Breath I Tarry, Arturo Boyle, Historical fiction, 2007, 108, false, null
-127b2ed0-cf0c-4b6f-81b8-031886ea1afc, Many Waters, Elvis Hansen, Horror, 2009, 191, false, null
-9c94a7f4-e31f-4c51-b835-ab8d2cb350e8, Mr Standfast, Karina Olson, Biography/Autobiography, 2002, 145, false, null
-f6198cdc-7894-44c7-b33b-275fbee3dcdf, The Painted Veil, Markus Walsh PhD, Historical fiction, 1997, 466, false, null
-eb76821f-94f7-4f0f-aa88-dcaec1e7e675, Postern of Fate, Irving Gleichner, Fiction narrative, 2011, 254, false, null
-8241f748-a3c0-432f-bf8b-698367a32679, The Heart Is Deceitful Above All Things, Graig Smith, Tall tale, 2008, 194, false, null
-6726b6d5-2010-4d62-9505-b5ff820f8a52, Things Fall Apart, Denisse Hegmann, Horror, 2017, 341, false, null
-40211f28-0d2d-4f57-b272-2bc2f7926fae, His Dark Materials, Liliana Ortiz, Western, 1993, 365, false, null
-0daca5ef-6085-40f1-8466-9c095952ec4a, I Sing the Body Electric, Sammie Spinka Sr., Fantasy, 2001, 350, false, null
-809c94ec-6052-40c6-87a3-c8748676594d, A Time to Kill, Karissa Stokes, Fairy tale, 2012, 439, false, null
-14a40750-fda6-4075-ae9d-cc348dd623d1, Down to a Sunless Sea, Teodoro Howe, Mythology, 1999, 453, false, null
-5441f6cf-c904-4b37-a0f4-8d9179543e84, Beyond the Mexique Bay, Ling Stamm, Textbook, 2017, 319, false, null
-5ba56fb3-9e69-4164-a2f1-02e0532bf27f, The Waste Land, Helena Goyette II, Short story, 2012, 129, false, null
-cf09f341-2eed-4ddc-af76-759d27977066, An Acceptable Time, Miss Reiko Batz, Narrative nonfiction, 1993, 251, false, null
-9ad280d8-6bdf-46ca-ab9e-61e3cd2bd94c, Blood's a Rover, Retha Abbott, Mythology, 2019, 377, false, null
-bea31538-dd4c-42b5-b04d-cb085fa2faa3, The Last Temptation, Meghann Tremblay, Narrative nonfiction, 2001, 106, false, null
-c673848f-5f35-4259-83da-966032b8b501, Mother Night, Clarence McDermott, Textbook, 1995, 201, false, null
-4447450d-163a-46f1-a5bc-595c013127eb, Jesting Pilate, Lennie Willms, Historical fiction, 2013, 258, false, null
-fb3369ee-51a1-45c0-ac85-6352596581dd, Surprised by Joy, Mrs. Lory O'Connell, Folklore, 2008, 407, false, null
-a9aa8d3d-e0af-4c83-af54-ddb62e64d4ee, Of Human Bondage, Clorinda West, Fiction narrative, 2012, 247, false, null
-a696cbf4-156a-4388-a5bd-c7d761412d28, The Way of All Flesh, Maggie Nicolas, Fanfiction, 1999, 216, false, null
-166cbb29-7955-4cbf-b442-2a14c175167c, The Torment of Others, Dr. Stacie Ryan, Fable, 2012, 336, false, null
-659be2b0-361d-4bf7-a710-69d8f74ed8ad, Cover Her Face, Stacia Murphy MD, Suspense/Thriller, 2006, 164, false, null
-a613391a-0c13-4dfb-9f57-ef6de6da7835, The Wind's Twelve Quarters, Caridad Ziemann, Mythology, 2002, 437, false, null
-6449cd2e-253e-4d1b-a537-bd268062902e, The Moving Finger, Scot Nicolas, Science fiction, 1996, 106, false, null
-90c75431-b238-4823-b72b-52026d63b036, By Grand Central Station I Sat Down and Wept, Wilton Ward, Humor, 2018, 194, false, null
-e0975bd3-8119-455d-ab35-8c278f0625f6, Arms and the Man, Casey Cummings, Fiction narrative, 1990, 108, false, null
-93fe2a2d-9184-4ddb-abd3-7c197a01dc65, What's Become of Waring, Judie Wintheiser, Biography/Autobiography, 1993, 214, false, null
-8696b64c-f096-4990-b0a9-5b04326582d3, The Moving Toyshop, Mrs. Mark Lind, Textbook, 2004, 239, false, null
-d99930f8-344a-487f-be72-02d965a789ec, The Mirror Crack'd from Side to Side, Linn Reinger, Mythology, 2002, 160, false, null
-6cf5cad5-39b9-4d28-aece-f11222affba6, Dance Dance Dance, Will McKenzie, Fiction narrative, 2000, 123, false, null
-b002f52c-51b7-4548-bebb-5b1d6288a62d, This Side of Paradise, Gonzalo Hamill, Narrative nonfiction, 2011, 132, false, null
-a1480331-ac5f-4184-9f5b-a04879aacbdf, The Way of All Flesh, Divina Gleason, Mythopoeia, 2008, 451, false, null
-ce95bcc0-d224-4a19-85a7-df258f7f5884, Tender Is the Night, Avril Considine, Historical fiction, 1994, 212, false, null
-1938b6d1-a53e-4c56-8233-0aabfb1c63dc, Pale Kings and Princes, Harrison Jaskolski, Narrative nonfiction, 1992, 360, false, null
-e24cd640-b506-4134-b150-35c8592320e3, Cover Her Face, Randall Braun PhD, Tall tale, 1996, 174, false, null
-25116784-2dfe-4a9c-bfdb-6965708f1ed1, Specimen Days, Kenneth Predovic, Fantasy, 2017, 340, false, null
-fc4f31ad-dece-407f-8e6a-5723961b7579, All Passion Spent, Mr. Jc Abernathy, Fantasy, 2014, 488, false, null
-b6fd7b9c-c19b-4be5-a5ca-4c6a8977fd44, Endless Night, Adrien Abshire, Classic, 2002, 219, false, null
-b89b248c-bf43-4e6d-a318-e7307853fb85, It's a Battlefield, Dr. Wilbert Homenick, Fable, 1996, 259, false, null
-8dfa3d8a-4526-48cc-a311-94d8f3b4b4d2, The Lathe of Heaven, Javier Koelpin, Reference book, 2017, 331, false, null
-16fb0a87-f758-462d-96fc-5b7ad857dea0, As I Lay Dying, Harris Koss V, Legend, 2003, 369, false, null
-90b816f7-2ed3-456d-9fbc-4a42742c986a, A Time to Kill, Mr. Fidela Greenfelder, Crime/Detective, 1997, 434, true, b94eae05-4104-4c46-a5b5-7ee3e6c3c791
+[
+  {
+    "uuid": "adfeb2fd-bcf9-4bcb-8568-bb98c69ef096",
+    "title": "A Summer Bird-Cage",
+    "author": "Ms. Eleni Jacobi",
+    "genre": "Fiction in verse",
+    "year": 1994,
+    "pageCount": 342,
+    "isAvailable": false
+  },
+  {
+    "uuid": "cc1987dd-88de-4586-abc4-02bef223243e",
+    "title": "The Other Side of Silence",
+    "author": "Bernie Ondricka",
+    "genre": "Realistic fiction",
+    "year": 2018,
+    "pageCount": 196,
+    "isAvailable": false
+  },
+  {
+    "uuid": "a8c96f87-22f2-4f60-be79-714990c03fec",
+    "title": "Clouds of Witness",
+    "author": "Irving Nikolaus",
+    "genre": "Classic",
+    "year": 2011,
+    "pageCount": 270,
+    "isAvailable": false
+  },
+  {
+    "uuid": "36b0cb5b-8ed9-4c6f-a245-ebba269441b7",
+    "title": "Tiger! Tiger!",
+    "author": "Brendon Aufderhar DDS",
+    "genre": "Classic",
+    "year": 1998,
+    "pageCount": 132,
+    "isAvailable": false
+  },
+  {
+    "uuid": "7a14251f-68cf-494a-b5a1-d4a11cee4458",
+    "title": "The Green Bay Tree",
+    "author": "Hope Buckridge",
+    "genre": "Narrative nonfiction",
+    "year": 2008,
+    "pageCount": 405,
+    "isAvailable": false
+  },
+  {
+    "uuid": "7f1d201a-e35c-4afa-88ce-3a4c432ca867",
+    "title": "Have His Carcase",
+    "author": "Eugena Romaguera",
+    "genre": "Fiction in verse",
+    "year": 2001,
+    "pageCount": 492,
+    "isAvailable": false
+  },
+  {
+    "uuid": "16dd613a-ddbf-4f2a-850a-03bdf118d489",
+    "title": "Recalled to Life",
+    "author": "Jacob Yundt",
+    "genre": "Crime/Detective",
+    "year": 1999,
+    "pageCount": 371,
+    "isAvailable": false
+  },
+  {
+    "uuid": "5870a01b-160c-43c7-a045-46e5879f7be5",
+    "title": "For a Breath I Tarry",
+    "author": "Arturo Boyle",
+    "genre": "Historical fiction",
+    "year": 2007,
+    "pageCount": 108,
+    "isAvailable": false
+  },
+  {
+    "uuid": "127b2ed0-cf0c-4b6f-81b8-031886ea1afc",
+    "title": "Many Waters",
+    "author": "Elvis Hansen",
+    "genre": "Horror",
+    "year": 2009,
+    "pageCount": 191,
+    "isAvailable": false
+  },
+  {
+    "uuid": "9c94a7f4-e31f-4c51-b835-ab8d2cb350e8",
+    "title": "Mr Standfast",
+    "author": "Karina Olson",
+    "genre": "Biography/Autobiography",
+    "year": 2002,
+    "pageCount": 145,
+    "isAvailable": false
+  },
+  {
+    "uuid": "f6198cdc-7894-44c7-b33b-275fbee3dcdf",
+    "title": "The Painted Veil",
+    "author": "Markus Walsh PhD",
+    "genre": "Historical fiction",
+    "year": 1997,
+    "pageCount": 466,
+    "isAvailable": false
+  },
+  {
+    "uuid": "eb76821f-94f7-4f0f-aa88-dcaec1e7e675",
+    "title": "Postern of Fate",
+    "author": "Irving Gleichner",
+    "genre": "Fiction narrative",
+    "year": 2011,
+    "pageCount": 254,
+    "isAvailable": false
+  },
+  {
+    "uuid": "8241f748-a3c0-432f-bf8b-698367a32679",
+    "title": "The Heart Is Deceitful Above All Things",
+    "author": "Graig Smith",
+    "genre": "Tall tale",
+    "year": 2008,
+    "pageCount": 194,
+    "isAvailable": false
+  },
+  {
+    "uuid": "6726b6d5-2010-4d62-9505-b5ff820f8a52",
+    "title": "Things Fall Apart",
+    "author": "Denisse Hegmann",
+    "genre": "Horror",
+    "year": 2017,
+    "pageCount": 341,
+    "isAvailable": false
+  },
+  {
+    "uuid": "40211f28-0d2d-4f57-b272-2bc2f7926fae",
+    "title": "His Dark Materials",
+    "author": "Liliana Ortiz",
+    "genre": "Western",
+    "year": 1993,
+    "pageCount": 365,
+    "isAvailable": false
+  },
+  {
+    "uuid": "0daca5ef-6085-40f1-8466-9c095952ec4a",
+    "title": "I Sing the Body Electric",
+    "author": "Sammie Spinka Sr.",
+    "genre": "Fantasy",
+    "year": 2001,
+    "pageCount": 350,
+    "isAvailable": false
+  },
+  {
+    "uuid": "809c94ec-6052-40c6-87a3-c8748676594d",
+    "title": "A Time to Kill",
+    "author": "Karissa Stokes",
+    "genre": "Fairy tale",
+    "year": 2012,
+    "pageCount": 439,
+    "isAvailable": false
+  },
+  {
+    "uuid": "14a40750-fda6-4075-ae9d-cc348dd623d1",
+    "title": "Down to a Sunless Sea",
+    "author": "Teodoro Howe",
+    "genre": "Mythology",
+    "year": 1999,
+    "pageCount": 453,
+    "isAvailable": false
+  },
+  {
+    "uuid": "5441f6cf-c904-4b37-a0f4-8d9179543e84",
+    "title": "Beyond the Mexique Bay",
+    "author": "Ling Stamm",
+    "genre": "Textbook",
+    "year": 2017,
+    "pageCount": 319,
+    "isAvailable": false
+  },
+  {
+    "uuid": "5ba56fb3-9e69-4164-a2f1-02e0532bf27f",
+    "title": "The Waste Land",
+    "author": "Helena Goyette II",
+    "genre": "Short story",
+    "year": 2012,
+    "pageCount": 129,
+    "isAvailable": false
+  },
+  {
+    "uuid": "cf09f341-2eed-4ddc-af76-759d27977066",
+    "title": "An Acceptable Time",
+    "author": "Miss Reiko Batz",
+    "genre": "Narrative nonfiction",
+    "year": 1993,
+    "pageCount": 251,
+    "isAvailable": false
+  },
+  {
+    "uuid": "9ad280d8-6bdf-46ca-ab9e-61e3cd2bd94c",
+    "title": "Blood\u0027s a Rover",
+    "author": "Retha Abbott",
+    "genre": "Mythology",
+    "year": 2019,
+    "pageCount": 377,
+    "isAvailable": false
+  },
+  {
+    "uuid": "bea31538-dd4c-42b5-b04d-cb085fa2faa3",
+    "title": "The Last Temptation",
+    "author": "Meghann Tremblay",
+    "genre": "Narrative nonfiction",
+    "year": 2001,
+    "pageCount": 106,
+    "isAvailable": false
+  },
+  {
+    "uuid": "c673848f-5f35-4259-83da-966032b8b501",
+    "title": "Mother Night",
+    "author": "Clarence McDermott",
+    "genre": "Textbook",
+    "year": 1995,
+    "pageCount": 201,
+    "isAvailable": false
+  },
+  {
+    "uuid": "4447450d-163a-46f1-a5bc-595c013127eb",
+    "title": "Jesting Pilate",
+    "author": "Lennie Willms",
+    "genre": "Historical fiction",
+    "year": 2013,
+    "pageCount": 258,
+    "isAvailable": false
+  },
+  {
+    "uuid": "fb3369ee-51a1-45c0-ac85-6352596581dd",
+    "title": "Surprised by Joy",
+    "author": "Mrs. Lory O\u0027Connell",
+    "genre": "Folklore",
+    "year": 2008,
+    "pageCount": 407,
+    "isAvailable": false
+  },
+  {
+    "uuid": "a9aa8d3d-e0af-4c83-af54-ddb62e64d4ee",
+    "title": "Of Human Bondage",
+    "author": "Clorinda West",
+    "genre": "Fiction narrative",
+    "year": 2012,
+    "pageCount": 247,
+    "isAvailable": false
+  },
+  {
+    "uuid": "a696cbf4-156a-4388-a5bd-c7d761412d28",
+    "title": "The Way of All Flesh",
+    "author": "Maggie Nicolas",
+    "genre": "Fanfiction",
+    "year": 1999,
+    "pageCount": 216,
+    "isAvailable": false
+  },
+  {
+    "uuid": "166cbb29-7955-4cbf-b442-2a14c175167c",
+    "title": "The Torment of Others",
+    "author": "Dr. Stacie Ryan",
+    "genre": "Fable",
+    "year": 2012,
+    "pageCount": 336,
+    "isAvailable": false
+  },
+  {
+    "uuid": "659be2b0-361d-4bf7-a710-69d8f74ed8ad",
+    "title": "Cover Her Face",
+    "author": "Stacia Murphy MD",
+    "genre": "Suspense/Thriller",
+    "year": 2006,
+    "pageCount": 164,
+    "isAvailable": false
+  },
+  {
+    "uuid": "a613391a-0c13-4dfb-9f57-ef6de6da7835",
+    "title": "The Wind\u0027s Twelve Quarters",
+    "author": "Caridad Ziemann",
+    "genre": "Mythology",
+    "year": 2002,
+    "pageCount": 437,
+    "isAvailable": false
+  },
+  {
+    "uuid": "6449cd2e-253e-4d1b-a537-bd268062902e",
+    "title": "The Moving Finger",
+    "author": "Scot Nicolas",
+    "genre": "Science fiction",
+    "year": 1996,
+    "pageCount": 106,
+    "isAvailable": false
+  },
+  {
+    "uuid": "90c75431-b238-4823-b72b-52026d63b036",
+    "title": "By Grand Central Station I Sat Down and Wept",
+    "author": "Wilton Ward",
+    "genre": "Humor",
+    "year": 2018,
+    "pageCount": 194,
+    "isAvailable": false
+  },
+  {
+    "uuid": "e0975bd3-8119-455d-ab35-8c278f0625f6",
+    "title": "Arms and the Man",
+    "author": "Casey Cummings",
+    "genre": "Fiction narrative",
+    "year": 1990,
+    "pageCount": 108,
+    "isAvailable": false
+  },
+  {
+    "uuid": "93fe2a2d-9184-4ddb-abd3-7c197a01dc65",
+    "title": "What\u0027s Become of Waring",
+    "author": "Judie Wintheiser",
+    "genre": "Biography/Autobiography",
+    "year": 1993,
+    "pageCount": 214,
+    "isAvailable": false
+  },
+  {
+    "uuid": "8696b64c-f096-4990-b0a9-5b04326582d3",
+    "title": "The Moving Toyshop",
+    "author": "Mrs. Mark Lind",
+    "genre": "Textbook",
+    "year": 2004,
+    "pageCount": 239,
+    "isAvailable": false
+  },
+  {
+    "uuid": "d99930f8-344a-487f-be72-02d965a789ec",
+    "title": "The Mirror Crack\u0027d from Side to Side",
+    "author": "Linn Reinger",
+    "genre": "Mythology",
+    "year": 2002,
+    "pageCount": 160,
+    "isAvailable": false
+  },
+  {
+    "uuid": "6cf5cad5-39b9-4d28-aece-f11222affba6",
+    "title": "Dance Dance Dance",
+    "author": "Will McKenzie",
+    "genre": "Fiction narrative",
+    "year": 2000,
+    "pageCount": 123,
+    "isAvailable": false
+  },
+  {
+    "uuid": "b002f52c-51b7-4548-bebb-5b1d6288a62d",
+    "title": "This Side of Paradise",
+    "author": "Gonzalo Hamill",
+    "genre": "Narrative nonfiction",
+    "year": 2011,
+    "pageCount": 132,
+    "isAvailable": false
+  },
+  {
+    "uuid": "a1480331-ac5f-4184-9f5b-a04879aacbdf",
+    "title": "The Way of All Flesh",
+    "author": "Divina Gleason",
+    "genre": "Mythopoeia",
+    "year": 2008,
+    "pageCount": 451,
+    "isAvailable": false
+  },
+  {
+    "uuid": "ce95bcc0-d224-4a19-85a7-df258f7f5884",
+    "title": "Tender Is the Night",
+    "author": "Avril Considine",
+    "genre": "Historical fiction",
+    "year": 1994,
+    "pageCount": 212,
+    "isAvailable": false
+  },
+  {
+    "uuid": "1938b6d1-a53e-4c56-8233-0aabfb1c63dc",
+    "title": "Pale Kings and Princes",
+    "author": "Harrison Jaskolski",
+    "genre": "Narrative nonfiction",
+    "year": 1992,
+    "pageCount": 360,
+    "isAvailable": false
+  },
+  {
+    "uuid": "e24cd640-b506-4134-b150-35c8592320e3",
+    "title": "Cover Her Face",
+    "author": "Randall Braun PhD",
+    "genre": "Tall tale",
+    "year": 1996,
+    "pageCount": 174,
+    "isAvailable": false
+  },
+  {
+    "uuid": "25116784-2dfe-4a9c-bfdb-6965708f1ed1",
+    "title": "Specimen Days",
+    "author": "Kenneth Predovic",
+    "genre": "Fantasy",
+    "year": 2017,
+    "pageCount": 340,
+    "isAvailable": false
+  },
+  {
+    "uuid": "fc4f31ad-dece-407f-8e6a-5723961b7579",
+    "title": "All Passion Spent",
+    "author": "Mr. Jc Abernathy",
+    "genre": "Fantasy",
+    "year": 2014,
+    "pageCount": 488,
+    "isAvailable": false
+  },
+  {
+    "uuid": "b6fd7b9c-c19b-4be5-a5ca-4c6a8977fd44",
+    "title": "Endless Night",
+    "author": "Adrien Abshire",
+    "genre": "Classic",
+    "year": 2002,
+    "pageCount": 219,
+    "isAvailable": false
+  },
+  {
+    "uuid": "b89b248c-bf43-4e6d-a318-e7307853fb85",
+    "title": "It\u0027s a Battlefield",
+    "author": "Dr. Wilbert Homenick",
+    "genre": "Fable",
+    "year": 1996,
+    "pageCount": 259,
+    "isAvailable": true
+  },
+  {
+    "uuid": "8dfa3d8a-4526-48cc-a311-94d8f3b4b4d2",
+    "title": "The Lathe of Heaven",
+    "author": "Javier Koelpin",
+    "genre": "Reference book",
+    "year": 2017,
+    "pageCount": 331,
+    "isAvailable": false,
+    "userId": "7c4c9bce-769e-4c9d-8476-08ddf801726f"
+  },
+  {
+    "uuid": "16fb0a87-f758-462d-96fc-5b7ad857dea0",
+    "title": "As I Lay Dying",
+    "author": "Harris Koss V",
+    "genre": "Legend",
+    "year": 2003,
+    "pageCount": 369,
+    "isAvailable": true
+  },
+  {
+    "uuid": "90b816f7-2ed3-456d-9fbc-4a42742c986a",
+    "title": "A Time to Kill",
+    "author": "Mr. Fidela Greenfelder",
+    "genre": "Crime/Detective",
+    "year": 1997,
+    "pageCount": 434,
+    "isAvailable": false,
+    "userId": "b94eae05-4104-4c46-a5b5-7ee3e6c3c791"
+  }
+]

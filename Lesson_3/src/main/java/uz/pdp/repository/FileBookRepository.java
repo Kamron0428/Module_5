@@ -1,52 +1,42 @@
 package uz.pdp.repository;
 
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+import com.google.gson.reflect.TypeToken;
 import uz.pdp.model.Book;
+
 import java.io.*;
+import java.lang.reflect.Type;
 import java.util.*;
+import java.util.stream.IntStream;
 
 public class FileBookRepository implements BookRepository {
-
+    private final String files = "files/books.txt";
+    private final Gson gson = new GsonBuilder()
+            .setPrettyPrinting()
+            .create();
 
     @Override
     public List<Book> findAll() {
-        List<Book> books = new ArrayList<>();
-        File file = new File("files/books.txt");
-        if (!file.exists()) return books;
-
-        try (BufferedReader br = new BufferedReader(new FileReader(file))) {
-            String line;
-            while ((line = br.readLine()) != null) {
-                if (line.trim().isEmpty()) continue;
-                String[] split = line.split(", ");
-                UUID uuid = UUID.fromString(split[0]);
-                String title = split[1];
-                String author = split[2];
-                String genre = split[3];
-                int year = Integer.parseInt(split[4]);
-                int pageCount = Integer.parseInt(split[5]);
-                boolean available = Boolean.parseBoolean(split[6]);
-                UUID userId = null;
-                if (!split[7].equals("null")) {
-                    userId = UUID.fromString(split[7]);
-                }
-
-                books.add(new Book(uuid, title, author, genre, year, pageCount, available, userId));
+        File file = new File(files);
+        try (Reader reader = new FileReader(file)) {
+            Type listType = new TypeToken<ArrayList<Book>>() {}.getType();
+            List<Book> books = gson.fromJson(reader, listType);
+            if (books!= null) {
+                return books;
             }
+            return new ArrayList<>();
         } catch (IOException e) {
             throw new RuntimeException("Faylni o'qishda xatolik: " + e.getMessage());
         }
-        return books;
     }
 
     @Override
     public Book findById(UUID id) {
-        List<Book> books = findAll();
-        for (Book book : books) {
-            if (book.getUuid().equals(id)) {
-                return book;
-            }
-        }
-        return null;
+        return findAll().stream()
+                .filter(book -> book.getUuid().equals(id))
+                .findFirst()
+                .orElse(null);
     }
 
     @Override
@@ -58,29 +48,21 @@ public class FileBookRepository implements BookRepository {
 
     @Override
     public void saveAll(List<Book> books) {
-        File file = new File("files/books.txt");
-
-        try (BufferedWriter bw = new BufferedWriter(new FileWriter(file))) {
-            for (Book book : books) {
-                bw.write(book.toString());
-                bw.newLine();
-            }
+        File file = new File(files);
+        try (Writer writer = new FileWriter(file)) {
+            gson.toJson(books, writer);
         } catch (IOException e) {
             throw new RuntimeException("Faylga yozishda xatolik: " + e.getMessage());
         }
     }
 
-
     @Override
     public void update(Book updatedBook) {
         List<Book> books = findAll();
-        for (int i = 0; i < books.size(); i++) {
-            if (books.get(i).getUuid().equals(updatedBook.getUuid())) {
-                books.set(i, updatedBook);
-                break;
-            }
-        }
+        IntStream.range(0, books.size())
+                .filter(i -> books.get(i).getUuid().equals(updatedBook.getUuid()))
+                .findFirst()
+                .ifPresent(i -> books.set(i, updatedBook));
         saveAll(books);
     }
-
 }

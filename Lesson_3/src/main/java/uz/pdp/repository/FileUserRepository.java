@@ -1,67 +1,63 @@
 package uz.pdp.repository;
 
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+import com.google.gson.reflect.TypeToken;
 import uz.pdp.model.User;
 
 import java.io.*;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.UUID;
+import java.lang.reflect.Type;
+import java.util.*;
+import java.util.stream.IntStream;
 
 public class FileUserRepository implements UserRepository {
+    private final String files = "files/users.txt";
+    private final Gson gson = new GsonBuilder()
+            .setPrettyPrinting()
+            .create();
 
     @Override
     public List<User> findAll() {
-        List<User> users = new ArrayList<>();
-        File file = new File("files/users.txt");
-        if (!file.exists()) return users;
-
-        try (BufferedReader br = new BufferedReader(new FileReader(file))) {
-            String line;
-            while ((line = br.readLine()) != null) {
-                String[] split = line.split(", ");
-                UUID uuid = UUID.fromString(split[0]);
-                users.add(new User(uuid, split[1], split[2], split[3], split[4], split[5]));
+        File file = new File(files);
+        try (Reader reader = new FileReader(file)) {
+            Type listType = new TypeToken<ArrayList<User>>() {}.getType();
+            List<User> users = gson.fromJson(reader, listType);
+            if (users.isEmpty()) {
+                return null;
             }
+            return users;
         } catch (IOException e) {
             throw new RuntimeException("Faylni o'qishda xatolik: " + e.getMessage());
         }
-        return users;
     }
 
     @Override
     public User findById(UUID id) {
-        List<User> users = findAll();
-        for (User user : users) {
-            if (user.getId().equals(id)) {
-                return user;
-            }
-        }
-        return null;
+        return findAll().stream()
+                .filter(user -> user.getId().equals(id))
+                .findFirst()
+                .orElse(null);
     }
 
     @Override
     public User findByUsername(String username) {
-        List<User> users = findAll();
-        for (User user : users) {
-            if (user.getUsername().equals(username)) {
-                return user;
-            }
-        }
-        return null;
+        return findAll().stream()
+                .filter(user -> user.getUsername().equals(username))
+                .findFirst()
+                .orElse(null);
     }
 
     @Override
     public void save(User user) {
-        List<User> all = findAll();
-        all.add(user);
-        saveAll(user);
+        List<User> users = findAll();
+        users.add(user);
+        saveAll(users);
     }
 
-    private static void saveAll(User user) {
-        File file = new File("files/users.txt");
-        try (BufferedWriter bw = new BufferedWriter(new FileWriter(file, true))) {
-            bw.write(user.toString());
-            bw.newLine();
+    private void saveAll(List<User> users) {
+        File file = new File(files);
+        try (Writer writer = new FileWriter(file)) {
+            gson.toJson(users, writer);
         } catch (IOException e) {
             throw new RuntimeException("Faylga yozishda xatolik: " + e.getMessage());
         }
@@ -70,12 +66,10 @@ public class FileUserRepository implements UserRepository {
     @Override
     public void update(User updatedUser) {
         List<User> users = findAll();
-        for (int i = 0; i < users.size(); i++) {
-            if (users.get(i).getId().equals(updatedUser.getId())) {
-                users.set(i, updatedUser);
-                break;
-            }
-        }
-        saveAll(updatedUser);
+        IntStream.range(0, users.size())
+                .filter(i -> users.get(i).getId().equals(updatedUser.getId()))
+                .findFirst()
+                .ifPresent(i -> users.set(i, updatedUser));
+        saveAll(users);
     }
 }
