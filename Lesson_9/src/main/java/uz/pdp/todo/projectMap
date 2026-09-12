@@ -1,0 +1,11 @@
+1. Crud tugatilsin
+2. Xabarlar file ga Gson shaklida yozilsin
+3. Inline-keyboard bilan komanda berilsin
+4. Methodlar
+4.1. Add task
+4.2 Update task by id
+4.3 Delete task by id
+4.4 Show task by id
+4.5 Show all tasks
+5. Get all task bosilganda button yani inline keyboard asosida tasklar chiqib kelsin!
+
