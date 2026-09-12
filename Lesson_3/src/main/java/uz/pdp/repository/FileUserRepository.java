@@ -1,7 +1,6 @@
 package uz.pdp.repository;
 
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
+import com.google.gson.*;
 import com.google.gson.reflect.TypeToken;
 import uz.pdp.model.User;
 
@@ -12,9 +11,7 @@ import java.util.stream.IntStream;
 
 public class FileUserRepository implements UserRepository {
     private final String files = "files/users.txt";
-    private final Gson gson = new GsonBuilder()
-            .setPrettyPrinting()
-            .create();
+    private final Gson gson = new GsonBuilder().setPrettyPrinting().create();
 
     @Override
     public List<User> findAll() {

@@ -12,9 +12,7 @@ import java.util.stream.IntStream;
 
 public class FileBookRepository implements BookRepository {
     private final String files = "files/books.txt";
-    private final Gson gson = new GsonBuilder()
-            .setPrettyPrinting()
-            .create();
+    private final Gson gson = new GsonBuilder().setPrettyPrinting().create();
 
     @Override
     public List<Book> findAll() {
@@ -65,4 +63,5 @@ public class FileBookRepository implements BookRepository {
                 .ifPresent(i -> books.set(i, updatedBook));
         saveAll(books);
     }
+
 }
