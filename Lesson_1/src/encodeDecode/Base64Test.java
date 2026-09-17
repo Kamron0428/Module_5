@@ -14,7 +14,10 @@ public class Base64Test {
 
     private static void mimeEncoderDecoder() {
         Base64.Encoder encoder = Base64.getMimeEncoder();
-        String text = "PDP (Professional Development Program) — Oʻzbekistonda IT mutaxassislarini tayyorlash va sohani rivojlantirishga ixtisoslashgan yirik IT ekotizimidir. U 2017-yilda oʻquv markazi sifatida tashkil etilgan boʻlib, bugungi kunda oʻz ichiga maktab, akademiya va universitetni qamrab oladi.";
+        String text = """
+        PDP (Professional Development Program) — Oʻzbekistonda IT mutaxassislarini tayyorlash va sohani rivojlantirishga
+        ixtisoslashgan yirik IT ekotizimidir. U 2017-yilda oʻquv markazi sifatida tashkil etilgan boʻlib,
+        bugungi kunda oʻz ichiga maktab, akademiya va universitetni qamrab oladi.""";
         byte[] encode = encoder.encode(text.getBytes());
         String encoded = new String(encode);
         System.out.println(encoded);

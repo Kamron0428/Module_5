@@ -1,31 +1,19 @@
-package uz.pdp;
+package uz.pdp.classTask;
 
-import com.pengrad.telegrambot.ExceptionHandler;
 import com.pengrad.telegrambot.TelegramBot;
-import com.pengrad.telegrambot.TelegramException;
 import com.pengrad.telegrambot.UpdatesListener;
 import com.pengrad.telegrambot.model.Message;
 import com.pengrad.telegrambot.model.Update;
-import com.pengrad.telegrambot.model.request.Keyboard;
-import com.pengrad.telegrambot.model.request.KeyboardButton;
-import com.pengrad.telegrambot.model.request.KeyboardButtonRequestManagedBot;
-import com.pengrad.telegrambot.model.request.ReplyKeyboardMarkup;
 import com.pengrad.telegrambot.request.SendMessage;
-import com.pengrad.telegrambot.request.SendPhoto;
 
-import java.io.File;
-import java.io.FileReader;
 import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.util.List;
 
-public class Main {
+public class Test {
     public static void main(String[] args) throws IOException {
         String botToken = "8978927499:AAHn9QT8v5M_wUhzBm8t_c8cT5qb0RO6mio";
         TelegramBot bot = new TelegramBot(botToken);
-       /* SendMessage sendMessage = new SendMessage("6276983680", "Salom");
-        bot.execute(sendMessage);*/
+        SendMessage sendMessage = new SendMessage("6276983680", "Salom");
+        bot.execute(sendMessage);
 
        /* SendPhoto sendPhoto = new SendPhoto("6276983680",
                 Files.readAllBytes(Path.of("/Users/bunyodomonov/Documents/terminal kodlar.png")));
@@ -57,9 +45,5 @@ public class Main {
         }, e -> {
             System.out.println(e.getMessage());
         });
-
-
-
-
     }
 }

@@ -1,26 +1,24 @@
 package uz.pdp.todo.backend.utils;
 
-
-import uz.pdp.todo.backend.dtos.*;
+import uz.pdp.todo.backend.dtos.TaskCreateDTO;
+import uz.pdp.todo.backend.dtos.TaskUpdateDTO;
 import uz.pdp.todo.backend.modules.Task;
-import uz.pdp.todo.backend.modules.*;
 
 public class Converter {
     public Task fromCreateDtoToTask(TaskCreateDTO createDTO) {
-        if (createDTO.title().length() > 20){
-            System.out.println("Title is too long, please try again!");
+        if (createDTO == null) {
+            return null;
         }
         return new Task(
                 createDTO.title(),
                 createDTO.description(),
                 createDTO.priority(),
                 createDTO.category());
-
     }
 
     public Task fromUpdateDtoToTask(TaskUpdateDTO updateDto) {
-        if (updateDto.title().length() > 20){
-            System.out.println("Title is too long, please try again!");
+        if (updateDto == null) {
+            return null;
         }
         return new Task(
                 updateDto.title(),
@@ -29,3 +27,4 @@ public class Converter {
                 updateDto.category());
     }
 }
+

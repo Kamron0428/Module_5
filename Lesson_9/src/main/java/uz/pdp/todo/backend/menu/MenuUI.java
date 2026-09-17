@@ -3,12 +3,12 @@ package uz.pdp.todo.backend.menu;
 import com.pengrad.telegrambot.TelegramBot;
 import com.pengrad.telegrambot.model.request.*;
 import com.pengrad.telegrambot.request.SendMessage;
-import uz.pdp.todo.backend.enums.*;
+import uz.pdp.todo.backend.enums.Category;
+import uz.pdp.todo.backend.enums.Priority;
 import uz.pdp.todo.backend.modules.Task;
 import uz.pdp.todo.backend.service.TodoService;
 
 import java.util.List;
-
 
 public class MenuUI {
 
@@ -25,7 +25,7 @@ public class MenuUI {
         ).resizeKeyboard(true);
 
         bot.execute(new SendMessage(chatId, "Asosiy menyu. Kerakli amalni tanlang:")
-                        .replyMarkup(keyboard));
+                .replyMarkup(keyboard));
     }
 
     public static void getAllTasks(TelegramBot bot, Long chatId, TodoService todoService) {
@@ -39,7 +39,8 @@ public class MenuUI {
         InlineKeyboardMarkup markup = new InlineKeyboardMarkup();
         for (Task task : tasks) {
             String status = task.isCompleted() ? "✅" : "⏳";
-            String buttonText = "%s %s".formatted(status, task.getTitle());
+            String title = task.getTitle() != null ? task.getTitle() : "Nomsiz";
+            String buttonText = "%s [%d] %s".formatted(status, task.getId(), title);
             markup.addRow(new InlineKeyboardButton(buttonText).callbackData("VIEW_" + task.getId()));
         }
 
@@ -55,27 +56,33 @@ public class MenuUI {
 
         String details = """
                 📌 Vazifa ma'lumotlari:
-               -----------------------------
+                -----------------------------
                 🆔 ID: %d
                 📝 Sarlavha: %s
                 📄 Tavsif: %s
                 ⚡️ Muhimlik: %s
                 🏷 Kategoriya: %s
                 📊 Holat: %s
-               """.formatted(
-                task.getId(),
-                task.getTitle(),
-                task.getDescription(),
-                task.getPriority(),
-                task.getCategory(),
+                """.formatted(
+                task.getId() != null ? task.getId() : 0L,
+                task.getTitle() != null ? task.getTitle() : "-",
+                task.getDescription() != null ? task.getDescription() : "-",
+                task.getPriority() != null ? task.getPriority() : "-",
+                task.getCategory() != null ? task.getCategory() : "-",
                 task.isCompleted() ? "Bajarilgan ✅" : "Jarayonda ⏳"
         );
 
         InlineKeyboardMarkup actionMarkup = new InlineKeyboardMarkup(
-                new InlineKeyboardButton("✅ Bajarildi deb belgilash")
-                        .callbackData("COMPLETE_" + task.getId()),
-                new InlineKeyboardButton("🗑 O'chirish")
-                        .callbackData("DELETE_" + task.getId())
+                new InlineKeyboardButton[]{
+                        new InlineKeyboardButton("✅ Bajarildi deb belgilash")
+                                .callbackData("COMPLETE_" + task.getId()),
+                        new InlineKeyboardButton("🗑 O'chirish")
+                                .callbackData("DELETE_" + task.getId())
+                },
+                new InlineKeyboardButton[]{
+                        new InlineKeyboardButton("⬅️ Barcha vazifalar")
+                                .callbackData("LIST_TASKS")
+                }
         );
 
         bot.execute(new SendMessage(chatId, details).replyMarkup(actionMarkup));
